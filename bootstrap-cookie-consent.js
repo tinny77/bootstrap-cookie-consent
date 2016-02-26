@@ -42,7 +42,7 @@ C = {
     },
 
     createCookie: function(name, value, days) {
-        console.log("Create cookie")
+        //console.log("Create cookie")
         var expires = ""
         if (days) {
             var date = new Date()
